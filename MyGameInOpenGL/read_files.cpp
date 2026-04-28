@@ -18,17 +18,18 @@
 */
 
 #include "read_files.h"
+#include <cstdio>
+#include <cstdlib>
+#include <sys/stat.h>
+#include <errno.h>
+#include <cstring>
 
 char* ReadBinaryFile(const char* pFilename, int& size)
 {
-    FILE* f = NULL;
-
-    errno_t err = fopen_s(&f, pFilename, "rb");
+    FILE* f = fopen(pFilename, "rb");
 
     if (!f) {
-        char buf[256] = { 0 };
-        strerror_s(buf, sizeof(buf), err);
-        std::cout << "Error opening '" << pFilename << "': " << buf << std::endl;
+        std::cout << "Error opening '" << pFilename << "': " << strerror(errno) << std::endl;
         exit(0);
     }
 
@@ -36,9 +37,7 @@ char* ReadBinaryFile(const char* pFilename, int& size)
     int error = stat(pFilename, &stat_buf);
 
     if (error) {
-        char buf[256] = { 0 };
-        strerror_s(buf, sizeof(buf), err);
-        std::cout << "Error getting file stats:" << buf << std::endl;
+        std::cout << "Error getting file stats:" << strerror(errno) << std::endl;
         return NULL;
     }
 
@@ -50,9 +49,7 @@ char* ReadBinaryFile(const char* pFilename, int& size)
     size_t bytes_read = fread(p, 1, size, f);
 
     if (bytes_read != size) {
-        char buf[256] = { 0 };
-        strerror_s(buf, sizeof(buf), err);
-        std::cout << "Read file error file:" << buf << std::endl;
+        std::cout << "Read file error:" << strerror(errno) << std::endl;
         exit(0);
     }
 
@@ -63,19 +60,17 @@ char* ReadBinaryFile(const char* pFilename, int& size)
 
 void WriteBinaryFile(const char* pFilename, const void* pData, int size)
 {
-    FILE* f = NULL;
-    
-    errno_t err = fopen_s(&f, pFilename, "wb"); 
+    FILE* f = fopen(pFilename, "wb");
 
     if (!f) {
-		std::cout << "Error opening '" << pFilename << "': " << err << std::endl;
+        std::cout << "Error opening '" << pFilename << "': " << strerror(errno) << std::endl;
         exit(0);
     }
 
     size_t bytes_written = fwrite(pData, 1, size, f);
 
     if (bytes_written != size) {
-		std::cout << "Error write file: " << err << std::endl;
+        std::cout << "Error write file: " << strerror(errno) << std::endl;
         exit(0);
     }
 

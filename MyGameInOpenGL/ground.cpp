@@ -4,17 +4,18 @@
 Ground::Ground(const char* textureMaterialSrc, const char* textureMaskSrc) {
 	groundMesh = new GroundMesh();
 	material = new Material(textureMaterialSrc);
-	if (textureMaskSrc) mask = new Material(textureMaskSrc);
+	//mask = nullptr;
+	//if (textureMaskSrc) mask = new Material(textureMaskSrc);
 }
 
 void Ground::draw(Shader& shaderProgram, Camera& camera, float SCR_WIDTH, float SCR_HEIGHT) {
 	material->use(0);
-	if (mask) {
-		mask->use(1); // texture unit 1
-		shaderProgram.setBool("useMask", true);
-	} else {
-		shaderProgram.setBool("useMask", false);
-	}
+	//if (mask) {
+		//mask->use(1); // texture unit 1
+		//shaderProgram.setBool("useMask", true);
+	//} else {
+		//shaderProgram.setBool("useMask", false);
+	//}
 	// model matrix
 	glm::mat4 model = glm::mat4(1.0f);
 	model = glm::translate(model, glm::vec3(0.0,0.0,0.0));

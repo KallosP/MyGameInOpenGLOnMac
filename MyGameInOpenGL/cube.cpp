@@ -8,7 +8,8 @@ Cube::Cube(const char* textureMaterialSrc, const char* textureMaskSrc) {
 	// why do we need to call use() (i.e. glActiveTexture/glBindTexture) for every texture in the render loop? -> because we have to continuously redraw those textures every frame. And the only way to draw a texture is if they are bound 
 	// what does it mean to bind a texture? -> means we're telling opengl that's the one we're currently working with
 	material = new Material(textureMaterialSrc);
-	if (textureMaskSrc) mask = new Material(textureMaskSrc);
+	//mask = nullptr;
+	//if (textureMaskSrc) mask = new Material(textureMaskSrc);
 }
 
 void Cube::draw(Shader& shaderProgram, Camera& camera, 
@@ -16,12 +17,12 @@ void Cube::draw(Shader& shaderProgram, Camera& camera,
 	glm::vec3 scale, float yaw) 
 {
 	material->use(0);
-	if (mask) {
-		mask->use(1); // texture unit 1
-		shaderProgram.setBool("useMask", true);
-	} else {
-		shaderProgram.setBool("useMask", false);
-	}
+	//if (mask) {
+		//mask->use(1); // texture unit 1
+		//shaderProgram.setBool("useMask", true);
+	//} else {
+		//shaderProgram.setBool("useMask", false);
+	//}
 	// model matrix
 	glm::mat4 model = glm::mat4(1.0f);
 	model = glm::translate(model, *pos);

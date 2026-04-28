@@ -6,12 +6,15 @@ Material::Material(const char* filename) {
     // make image up-right
     stbi_set_flip_vertically_on_load(true);  
 
+    // Add relative file path to texture file
+    std::string filepath = std::string("../MyGameInOpenGL/") + filename;
     // load the image data from the file into this data array
-    unsigned char* data = stbi_load(filename, &width, &height, &channels, STBI_rgb_alpha); // data is an array of unsigned bytes, loads the texture
+    unsigned char* data = stbi_load(filepath.c_str(), &width, &height, &channels, STBI_rgb_alpha); // data is an array of unsigned bytes, loads the texture
 
     // create a texture object on the GPU
     glGenTextures(1, &texture); // we're asking openGL for texture ID and storing it in texture (defined in material.h)
     glBindTexture(GL_TEXTURE_2D, texture); // we're telling openGL "ok I want to work with this texture now" -> that's what binding is/means
+    // now there's an empty texture object on the GPU // we're telling openGL "ok I want to work with this texture now" -> that's what binding is/means
     // now there's an empty texture object on the GPU
 
     // upload the image data (aka pixel data) to the graphics card (pixel array goes from CPU -> GPU)

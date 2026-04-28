@@ -1,0 +1,3 @@
+/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build/CMakeFiles/my_game_on_mac.dir
+/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build/CMakeFiles/edit_cache.dir
+/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build/CMakeFiles/rebuild_cache.dir

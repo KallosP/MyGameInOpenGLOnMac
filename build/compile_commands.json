@@ -1,0 +1,158 @@
+[
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/main.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/main.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/main.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/main.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/glad.c.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/glad.c",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/glad.c",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/glad.c.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/app.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/app.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/app.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/app.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/camera.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/camera.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/camera.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/camera.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/cube.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/cube.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/cube.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/cube.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/cube_mesh.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/cube_mesh.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/cube_mesh.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/cube_mesh.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/entity.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/entity.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/entity.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/entity.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/fault_formation_terrain.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/fault_formation_terrain.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/fault_formation_terrain.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/fault_formation_terrain.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/ground.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/ground.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/ground.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/ground.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/ground_mesh.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/ground_mesh.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/ground_mesh.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/ground_mesh.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/material.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/material.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/material.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/material.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/midpoint_disp_terrain.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/midpoint_disp_terrain.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/midpoint_disp_terrain.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/midpoint_disp_terrain.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/physics.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/physics.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/physics.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/physics.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/player.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/player.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/player.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/player.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/read_files.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/read_files.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/read_files.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/read_files.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/stb.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/stb.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/stb.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/stb.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/terrain.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/terrain.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/terrain.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/terrain.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/texture_generator.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/texture_generator.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/texture_generator.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/texture_generator.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/triangle_list.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/triangle_list.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/triangle_list.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/triangle_list.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/util.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/util.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/MyGameInOpenGL/util.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/MyGameInOpenGL/util.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_draw.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_draw.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_tables.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_tables.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_widgets.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_widgets.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_impl_glfw.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/build",
+  "command": "/usr/bin/clang++  -I/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_impl_opengl3.cpp.o -c /Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/pkallos/Desktop/Development/game_dev/MyGameInOpenGLOnMac/dependencies/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/my_game_on_mac.dir/dependencies/imgui/imgui_impl_opengl3.cpp.o"
+}
+]
