@@ -1,0 +1,88 @@
+# Notes
+- OpenGL = open graphics library
+- glfw = graphics library framework 
+    - built on top of OpenGL
+    - creates windows with OpenGL context, sets up callbacks, and handles timing/monitors for you
+- rasturizer interpolates all attributes: position, color, etc (draws the line between points)
+- shader = a small program that runs on the GPU that controls how things are drawn to the screen
+- shader module = a part of the shader program
+- **most objects in OpenGL are written as unsigned integers**
+- (**Screen coordinates**) points on the screen
+  - follow the format x, y, z, r, g, b
+  - y-axis: 
+    - 0 = center of screen
+    - 1 = top of screen
+    - -1 = bottom of screen
+  - x-axis:
+    - 0 = center of screen
+    - 1 = right of screen
+    - -1 = left of screen
+  - NOTE: This method of putting points on the screen is known as **NDC = normalized device coordinates**
+- **Texture Coordinates**
+  - y-axis:
+    - 0 = bottom of screen
+    - 1 = top of screen
+  - x-axis:
+    - 0 = left of screen
+    - 1 = right of screen
+- In OpenGL, **attribute = a set of 1 to 4 numbers describing something (e.g. x,y,z define position; r,g,b define color)**
+- In OpenGL, **vertex = a collection of attributes needed to draw a point (e.g. x,y,z,r,g,b all together are a vertex)**
+- buffer = a big list of data
+- interleaving (i.e. tightly linked) attributes is best for performance 
+    - sometimes that isn't possible (e.g. w/ heterogenous data), so they must be separated into their own data structures
+- hetergenous data = data w/ different data types
+- homogenous data = data w/ the same data type
+- the txt files that have what looks like C/C++ code are GLSL (OpenGL shading language)
+- binding a texture = tells the GPU which texture object to use for upcoming rendering operations
+  - can be thought of as plugging something in:
+    - You have multiple textures
+    - Binding one is like plugging it into the "texture slot"
+    - The GPU will use whatever is currently plugged in
+- mipmap
+  - repeatadly downsamples image to smaller and smaller copies, so that when the image is farther (i.e. smaller in screen space) away, the graphics card can select the appropriate downsampled image
+    - reduces aliasing (aka ugly visual artifacts)
+  - makes sure image is correct size depending on where image is drawn on screen
+  - 0 often defines the base mipmap level (e.g. when passing as a parameter)
+- **common to see (u, v) for texture coordinates**
+  - *NOTE: OpenGL uses (S, T)*
+- images are rarely loaded at a certain size and drawn at that same size
+  - much more common to either shrink the image or increase it's size
+- sampler = tells the GPU how to read a texture (e.g. the rules for reading an image)
+- OpenGL stores matrices in column-major order
+- GLSL
+  - a uniform = a global variable applied to a shader
+  - GLSL has a built-in mat4 keyword (for matrix)
+- Geometric (transformation) matrix = a matrix that stores info about translation, rotation, etc.
+    - **Several transformation matrices are usually re-created w/ new values every frame to render scenes** 
+- **Understanding the Camera and it's viewpoint**
+  - **Model Transform (object -> world space)**
+    - Transforms objects into world space 
+    - i.e. objects are positioned/oriented in the world
+    - i.e. the model transform places objects into the world
+  - **View Transform (world -> camera space (camera at origin of the world))**
+    - places the world view in the frame of reference of the camera
+      - i.e. the view transform changes the coordinate system to be based on the camera's POV of the world
+      - i.e. the view transform changes it so that the view is expressed *relative* to the camera's position and orientation
+      - i.e. the view transform re-expresses the world relative to the camera
+    - the camera is **NOT** an object in the world
+  - ***KEY TAKEAWAY:* The view transform is the inverse of the camera's model transform.**  
+    - What the view transform is doing conceptually: It's taking taking all the world's coordinate (this includes any objects in the world (b/c they're also positioned at coordinates)) and re-expressing them in such a way that it places the camera at the origin of the world, facing forward
+- Camera
+  - eye = the camera's position
+  - the vectors that define the camera's coordinates include:
+    - u = up vector
+      - j' = image of the y-axis
+    - r = right vector = i'
+      - i' = image of the x-axis
+    - f = forwards vector
+      - k' = image of the z-axis
+- Linear Algebra
+  - normalizing a vector = converting a vector into a unit vector that has the same direction of the original vector but a magnitude (size) of 1
+  - unit vector = a vector with a magnitude of exactly one
+    - used to indicate direction without regard to size
+- OpenGL Functions Clarification
+  - glUniformMatrix4fv 
+    - all this function is doing is **taking the matrix that you define in your code (on the CPU) and transferring it to the GPU** by storing it into a mat4 variable you define in the GLSL code in your shader program (e.g. vertex shader, fragment shader)
+- Accessing Texture object in fragment shader
+    - use a sampler 
+        - is a built-in GLSL data type that represents a texture object (e.g. sampler1D, sampler2D, sampler3D)
